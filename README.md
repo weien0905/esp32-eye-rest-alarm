@@ -6,7 +6,7 @@ The ESP32 device will act as a timer and web server.
 - Timer: The PIR sensor will be trigerred and count down the timer when the user is sitting in front of the desk and the buzzer will sound after 20 minutes. After that, a rest time of 20 seconds will be given.
 - Web server: The user may view the remaining time, change the time configuration and reset the time by accessing the web server.
 
-<img src="https://raw.githubusercontent.com/weien0905/esp32-eye-rest-alarm/main/web_server.png" width="300">
+<img src="web_server.png" width="300">
 
 ## Hardware
 
@@ -19,7 +19,7 @@ The parts needed are as follow:
 
 ## Pin configuration
 
-<img src="https://raw.githubusercontent.com/weien0905/esp32-eye-rest-alarm/main/pin_configuration.jpg" width="300">
+<img src="pin_configuration.jpg" width="300">
 
 - ESP32 VIN (assume close to 5V) to PIR sensor 5V
 - ESP32 GND to PIR sensor GND
