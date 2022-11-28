@@ -31,9 +31,9 @@ Pin number configuration can be changed in the script.
 
 ## Software
 
-Replace your Wi-Fi SSID and password in [boot.py](https://github.com/weien0905/esp32-eye-rest-alarm/blob/main/src/boot.py).
+Replace your Wi-Fi SSID and password in [boot.py](src/boot.py).
 
-Flash ESP32 with all the files in [src/](https://github.com/weien0905/esp32-eye-rest-alarm/tree/main/src).
+Flash ESP32 with all the files in [src](src).
 
-Run [boot.py](https://github.com/weien0905/esp32-eye-rest-alarm/blob/main/src/boot.py) to get the ESP32 IP address and it can be accessed through your local area network (LAN).
+Run [boot.py](src/boot.py) to get the ESP32 IP address and it can be accessed through your local area network (LAN).
 
